@@ -1,150 +1,124 @@
-🏏 Virat Kohli Career Performance Analysis | Power BI Dashboard
-📌 Project Overview
+# 🏏 Virat Kohli Career Performance Analysis | Power BI Dashboard
 
-This project is an end-to-end Power BI sports analytics dashboard analyzing the career performance of Virat Kohli across ODI, T20I, and Test formats.
+## 📌 Project Overview
 
-The goal of this project was to collect raw cricket match data, clean and transform it, and build an interactive dashboard that delivers meaningful insights through structured data storytelling.
+This project presents an end-to-end **Power BI sports analytics dashboard** analyzing the career performance of Virat Kohli across ODI, T20I, and Test formats.
 
-🎯 Objective
+The objective of this project was to collect raw match-level data, clean and transform it, and build an interactive dashboard that delivers meaningful insights using structured data storytelling techniques.
 
-Collect and consolidate match-level batting data
+---
 
-Perform data cleaning and preprocessing
+## 🎯 Objectives
 
-Implement ETL process in Power BI
+- Collect and consolidate match-level batting data  
+- Perform data cleaning and preprocessing  
+- Implement ETL process in Power BI  
+- Create KPI-driven interactive dashboard  
+- Enable format-wise and year-wise performance analysis  
 
-Build interactive KPI-driven dashboard
+---
 
-Enable format-wise and year-wise performance analysis
+## 📂 Data Source
 
-📂 Data Source
+- Match-level batting data collected from Cricmetric  
+- Raw data compiled and merged using Google Sheets  
 
-Match-level data collected from Cricmetric
+---
 
-Raw data compiled and merged using Google Sheets
+## 🔄 Project Workflow
 
-🔄 Project Workflow
-1️⃣ Data Collection
+### 1️⃣ Data Collection
+- Extracted batting performance data from Cricmetric  
+- Compiled multiple match records into a structured dataset  
 
-Extracted batting performance data from Cricmetric
+### 2️⃣ Data Cleaning & Preparation (Google Sheets)
+- Merged datasets from various matches  
+- Removed duplicate and inconsistent records  
+- Handled missing/null values  
+- Standardized date and numeric formats  
+- Structured columns for analytical use  
 
-Compiled multiple match records into Google Sheets
+### 3️⃣ ETL & Data Transformation (Power BI)
+- Imported cleaned dataset into Power BI  
+- Performed transformation using Power Query:
+  - Adjusted data types  
+  - Filtered unnecessary columns  
+  - Reformatted fields for analysis  
+- Created calculated measures using DAX:
+  - Total Runs  
+  - Batting Average  
+  - Strike Rate  
+  - Boundary contribution  
+  - Year-wise aggregation  
 
-2️⃣ Data Cleaning & Preparation (Google Sheets)
+### 4️⃣ Data Modeling
+- Structured dataset for accurate aggregation  
+- Optimized data relationships  
+- Ensured proper filtering across formats and years  
 
-Merged various match datasets
+### 5️⃣ Dashboard Development
 
-Removed inconsistencies and duplicate records
+Developed an interactive dashboard featuring:
 
-Handled missing/null values
+- 📊 KPI Cards (Runs, Innings, Average, Strike Rate)  
+- 📅 Year-wise Performance Trend  
+- 💯 Hundreds vs Fifties Comparison  
+- 🔥 Boundary Distribution (Fours vs Sixes)  
+- 🎛 Format Filter (ODI / T20I / Test)  
+- 📆 Dynamic Year Slicer  
 
-Standardized date and numeric formats
+---
 
-Structured columns for analysis
+## 📊 Dashboard Preview
 
-3️⃣ ETL & Data Transformation (Power BI)
+<p align="center">
+  <img src="./virat-kohli-dashboard.png" width="900">
+</p>
 
-Imported cleaned dataset into Power BI
+---
 
-Performed data transformation using Power Query:
+## 📈 Key Insights
 
-Adjusted data types
+- Identified peak performance years through yearly run trends  
+- Analyzed scoring consistency using batting average  
+- Observed boundary contribution patterns  
+- Compared milestone frequency (100s vs 50s)  
+- Enabled format-wise performance comparison  
 
-Filtered unnecessary fields
+---
 
-Reformatted columns
+## 🛠 Tools & Technologies
 
-Created calculated measures using DAX:
+- Google Sheets (Data Cleaning & Merging)  
+- Power BI  
+- Power Query (ETL)  
+- DAX (Data Analysis Expressions)  
+- Data Modeling  
+- Interactive Data Visualization  
 
-Total Runs
+---
 
-Batting Average
+## 💡 Skills Demonstrated
 
-Strike Rate
+- End-to-End Data Analytics Workflow  
+- Data Cleaning & Transformation  
+- ETL Implementation  
+- KPI Design  
+- Dashboard UI Structuring  
+- Data Storytelling  
 
-Boundary contribution
+---
 
-Year-wise aggregations
+## 🚀 Future Enhancements
 
-4️⃣ Data Modeling
+- Player comparison analysis  
+- Advanced performance metrics  
+- Predictive trend analysis  
+- Automated data refresh pipeline  
 
-Structured dataset for efficient aggregation
+---
 
-Ensured accurate performance metrics across formats
+## 👤 Author
 
-Optimized model for interactive filtering
-
-5️⃣ Dashboard Development
-
-Developed an interactive dashboard including:
-
-📊 KPI Cards (Runs, Innings, Average, Strike Rate)
-
-📅 Year-wise Performance Trend
-
-💯 Hundreds vs Fifties Comparison
-
-🔥 Boundary Distribution (Fours vs Sixes)
-
-🎛 Format Filter (ODI / T20I / Test)
-
-📆 Dynamic Year Slicer
-
-📊 Dashboard Preview
-<p align="center"> <img src="./virat-kohli-dashboard.png" width="900"> </p>
-📈 Key Insights
-
-Identified peak performance years through yearly run analysis
-
-Observed scoring consistency using batting average trends
-
-Analyzed boundary scoring patterns (Fours vs Sixes)
-
-Compared milestone achievements (100s and 50s)
-
-Enabled format-based performance comparison
-
-🛠 Tools & Technologies Used
-
-Google Sheets (Data Cleaning & Merging)
-
-Power BI
-
-Power Query (ETL Process)
-
-DAX (Data Analysis Expressions)
-
-Data Modeling
-
-Interactive Data Visualization
-
-💡 Skills Demonstrated
-
-End-to-End Data Analytics Workflow
-
-Data Cleaning & Transformation
-
-ETL Implementation
-
-Analytical Thinking
-
-KPI Development
-
-Dashboard Design & UI Structuring
-
-Data Storytelling
-
-🚀 Future Improvements
-
-Player comparison feature
-
-Advanced metrics (Consistency Index, Impact Score)
-
-Automated data refresh pipeline
-
-Predictive performance trend analysis
-
-👤 Author
-
-Soumen Karmakar
-Aspiring Data Analyst | Power BI Enthusiast | Data Visualization Learner
+**Soumen Karmakar**  
+Aspiring Data Analyst | Power BI Enthusiast  
