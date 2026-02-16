@@ -72,8 +72,9 @@ Developed an interactive dashboard featuring:
 ## 📊 Dashboard Preview
 
 <p align="center">
-  <img src="./virat-kohli-dashboard-1.png" width="900">
+  <img src="virat%20kohli%20dashboard%201.png" width="900">
 </p>
+
 
 ---
 
